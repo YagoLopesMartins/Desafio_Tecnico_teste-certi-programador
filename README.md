@@ -37,7 +37,7 @@
 ### COMO UTILIZAR ###
 
  - Git clone do repositório ou baixe como zip
- - após baixado e acessado o diretório... executar seguintes comandos:
+ - após baixado e acessado o diretório server e executar seguintes comandos:
  - npm instal
  - npm run dev ou npm start
  - Abrir browser e acessar: http://localhost:3000
