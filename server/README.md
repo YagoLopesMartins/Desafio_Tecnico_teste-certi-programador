@@ -38,8 +38,8 @@
 
  - Git clone do repositório ou baixe como zip
  - após baixado e acessado o diretório... executar seguintes comandos:
- - npm instal
- - npm run dev ou npm start
+ - $ npm instal
+ - $ npm run dev ou npm start
  - Abrir browser e acessar: http://localhost:3000
  - Passar na rota o valor a ser digitado... Ex.: http://localhost:3000/-345
 
@@ -47,6 +47,8 @@
 
  - baixar a imagem do docker HUB e executar:
  - IMAGEM: yagodocker2020/node-docker:1.0.0
- - docker pull yagodocker2020/node-docker:1.0.0
+ - $ docker pull yagodocker2020/node-docker:1.0.0
+ - $ docker run -p 3000:3000 -d yagodocker2020/node-docker:1.0.0
+ - Acessar localhost:3000/<valor> ou acessar via app (Postman/insominia)
 
 ### BOA EXECUÇÃO :) ###
