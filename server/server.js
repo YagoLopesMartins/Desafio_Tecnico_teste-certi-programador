@@ -7,11 +7,11 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get('/:num', (request, response) => {
+app.get('/:num', async (request, response) => {
     valor_passado_pela_url  = request.params.num;
     console.log(valor_passado_pela_url);
     // response.json({ extenso: `${data} numero por extenso`});
-    escreve = escreve_por_extenso.main(valor_passado_pela_url);
+    escreve = await escreve_por_extenso.main(valor_passado_pela_url);
     console.log(escreve);
     response.json({ extenso: `${escreve}`});
 });
