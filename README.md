@@ -50,3 +50,9 @@
  - docker pull yagodocker2020/node-docker:1.0.0
 
 ### BOA EXECUÇÃO :) ###
+
+### Feedback (Ajustar)
+ - Comentar a regra de negócios (estratégia utilizada para o desafio)
+ - Inserir padrões de projeto (Clean code)
+ - Inserir testes unitários
+ - DRY (remova códigos desnecessários)
